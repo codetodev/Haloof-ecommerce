@@ -1,0 +1,35 @@
+body {
+  background-color: #F9E79F;
+}
+
+
+.heroimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.textonimg {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 100px;
+  color: blue;
+  text-align: center;
+}
+
+.buynow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #DC7633;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
